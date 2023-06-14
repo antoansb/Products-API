@@ -1,0 +1,131 @@
+[
+  {
+    "name": "tabure",
+    "price": 25,
+    "company": "javor",
+    "rating": 4
+  },
+  {
+    "name": "radni sto mini",
+    "price": 109,
+    "company": "yisk",
+    "rating": 5
+  },
+  {
+    "name": "radni sto maxi",
+    "price": 309,
+    "company": "yisk",
+    "rating": 4.9
+  },
+  {
+    "name": "marcus stolica",
+    "price": 125,
+    "company": "javor",
+    "rating": 4.8
+  },
+  {
+    "name": "lazy bag mini",
+    "price": 40,
+    "company": "yisk",
+    "rating": 4.6
+  },
+  {
+    "name": "fotelja ez",
+    "price": 42,
+    "company": "ikea",
+    "rating": 4.55
+  },
+  {
+    "name": "fotelja ez mini",
+    "price": 23,
+    "company": "ikea"
+  },
+  {
+    "name": "lazy bag mid",
+    "price": 59,
+    "featured": true,
+    "company": "matis"
+  },
+  {
+    "name": "bastenska ljuljaska",
+    "price": 39,
+    "featured": true,
+    "company": "ikea"
+  },
+
+  {
+    "name": "lazy bag max",
+    "price": 99,
+    "company": "matis"
+  },
+  {
+    "name": "polica za knjige rez",
+    "price": 31,
+    "featured": true,
+    "company": "matis"
+  },
+  {
+    "name": "drzac za knjige",
+    "price": 30,
+    "company": "yisk"
+  },
+  {
+    "name": "globus ukrasni",
+    "price": 30,
+    "company": "ikea"
+  },
+  {
+    "name": "gejmerska stolica ",
+    "price": 109,
+    "company": "yisk"
+  },
+  {
+    "name": "ugaona mini",
+    "price": 129,
+    "company": "javor"
+  },
+  {
+    "name": "otirac za obucu",
+    "price": 15,
+    "company": "matis"
+  },
+  {
+    "name": "jastuk dormeo",
+    "price": 79,
+    "featured": true,
+    "company": "yisk"
+  },
+  {
+    "name": "sto iverica",
+    "price": 120,
+    "featured": true,
+    "company": "javor"
+  },
+  {
+    "name": "naslon za noge",
+    "price": 25,
+    "company": "ikea"
+  },
+  {
+    "name": "naslon za donja ledja",
+    "price": 15,
+    "company": "ikea"
+  },
+  {
+    "name": "nasloni za vrat i ledja",
+    "price": 40,
+    "company": "ikea"
+  },
+  {
+    "name": "postolje za monitor",
+    "price": 23,
+    "featured": true,
+    "company": "matis"
+  },
+  {
+    "name": "drzac za slusalice",
+    "price": 23,
+    "featured": true,
+    "company": "matis"
+  }
+]

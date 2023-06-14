@@ -24,7 +24,7 @@ const productSchema = new mongoose.Schema({
   company: {
     type: String,
     enum: {
-      values: ['ikea', 'liddy', 'caressa', 'marcos'],
+      values: ['ikea', 'yisk', 'matis', 'javor'],
       message: '{VALUE} does not exist',
     },
   },

@@ -10,6 +10,8 @@ const productsRouter = require('./routes/products');
 const errorHandler = require('./middleware/error-handler');
 const notFound = require('./middleware/not-found');
 
+const loadInitialData = require('./data/loadInitialData');
+
 app.use(express.json());
 
 app.get('/', (req, res) => {
@@ -24,6 +26,7 @@ app.use(notFound);
 const start = async () => {
   try {
     await connectDB(process.env.MONGO_URI);
+    loadInitialData();
     app.listen(3000, console.log('Server is listening on port 3000...'));
   } catch (error) {
     console.log(error);
