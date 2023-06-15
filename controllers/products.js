@@ -1,7 +1,7 @@
 const Product = require('../models/product');
 
 const getAllProducts = async (req, res) => {
-  const { name, featured, company } = req.query;
+  const { name, featured, company, sort, select } = req.query;
   const queryObject = {};
 
   if (name) {
@@ -11,11 +11,26 @@ const getAllProducts = async (req, res) => {
   if (featured) {
     queryObject.featured = featured === 'true' ? true : false;
   }
+
   if (company) {
     queryObject.company = company;
   }
 
-  const products = await Product.find(queryObject);
+  let result = Product.find(queryObject);
+
+  if (sort) {
+    const sortList = sort.split(',').join(' ');
+    result = result.sort(sortList);
+  } else {
+    result = result.sort('createdAt');
+  }
+
+  if (select) {
+    const selectList = select.split(',').join(' ');
+    result = result.select(selectList);
+  }
+
+  const products = await result;
   res.status(200).json({ products });
 };
 
